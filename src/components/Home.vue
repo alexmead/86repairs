@@ -1,3 +1,5 @@
+<!-- Loop over equipment data here, generation a new "card" for each on -->
+
 <template>
   <div class="hello">
     <h2>Welcome to Vue frontend exercise!</h2>
@@ -26,7 +28,19 @@
         Here are some tips about how to be a better developer</a
       >
     </ul>
+    <!-- Template of a card I will use to display data. -->
+    <!-- How to generate these iteratively via a loop? -->
+
+    <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
   </div>
+  </div>
+
 </template>
 
 <script>
@@ -34,6 +48,7 @@ export default {
   name: "Home",
 };
 </script>
+
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>

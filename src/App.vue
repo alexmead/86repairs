@@ -5,13 +5,30 @@
   </div>
 </template>
 
+<!--
+<script>
+  function printList() {
+      let list = []
+      for (let value of ['a', 'b']) {
+        list.push(value)
+      }
+      return list 
+  }
+</script>
+--> 
+<!-- let printList = printList() -->
+
 <script>
 import Home from "./components/Home.vue";
+
+
+
 
 export default {
   name: "App",
   components: {
-    Home,
+    Home, 
+    
   },
 };
 </script>
